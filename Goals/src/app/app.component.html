@@ -1,0 +1,12 @@
+<div>
+  <h1> My Goals </h1>
+  <ul>
+    <li *ngFor='let goal of goals'>
+      {{goal.name}}
+    </li>
+  </ul>
+  <p *ngIf='goals.length> 5'>Your goals are too many </p>
+</div>
+
+/*
+The ngIf commands simply checks if a condition is met and perfoms an action based on that condition
