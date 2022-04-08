@@ -20,7 +20,7 @@ export class GoalComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { //ngOnInit is a lifecycle hook, called each time the component is created.
   }
 
 }
