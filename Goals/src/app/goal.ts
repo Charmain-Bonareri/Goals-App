@@ -7,4 +7,5 @@ We have exported the class to make it available for use anywhere else we need it
 export class Goal {
   id: number;
   name: string;
+  description: string;
 }
