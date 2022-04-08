@@ -8,4 +8,8 @@ on line 8, we check if the length of the goals array is more than 5, then displa
 want for the component.
 
 -we moved the template logic from app.html to goal component.
+
+Nesting components
+-We have all our goals inside the goal component, now we make it available as a child component of the root component, appcomponent.
+-Using the goalcomponent selector,lets nest the goal component inside the appcoponent to display the contents of the goal component.
 */
