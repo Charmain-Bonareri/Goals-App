@@ -7,5 +7,5 @@ on line 8, we check if the length of the goals array is more than 5, then displa
 - ngOnInit is a lifecycle hook. It is called each time the component is created. We use it to put complex initialization logic that we
 want for the component.
 
--we moved the
+-we moved the template logic from app.html to goal component.
 */
