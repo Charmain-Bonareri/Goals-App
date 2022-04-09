@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core'; 
+import { Component, OnInit } from '@angular/core'; //allows us to do Ipb
+import { Goal } from '../goal'; //import the goal blueprint class
 
 @Component({
   selector: 'app-goal-detail',
