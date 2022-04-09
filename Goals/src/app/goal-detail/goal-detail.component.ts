@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'; //allows us to do Ipb
+import { Component, Input, OnInit } from '@angular/core'; //allows us to do Ipb
 import { Goal } from '../goal'; //import the goal blueprint class
 
 @Component({
@@ -7,7 +7,7 @@ import { Goal } from '../goal'; //import the goal blueprint class
   styleUrls: ['./goal-detail.component.css']
 })
 export class GoalDetailComponent implements OnInit {
-
+  @Input () goal:Goal;
   constructor() { }
 
   ngOnInit(): void {

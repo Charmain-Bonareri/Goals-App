@@ -29,4 +29,8 @@ Child components
 
 Input Property Binding
 -allows us to pass data from a parent component to its child components.
+-import the goal blueprint class in goaldetail.component.ts.
+-we define the goal as the property that will undergo ipb, which is of type goal. This means when we have the property goal in goaldetailcomponent
+it will have received its data from its parent goal component.
+-to bind this goal property, we change the goalcomponent.html
 */
