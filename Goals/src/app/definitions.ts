@@ -33,4 +33,7 @@ Input Property Binding
 -we define the goal as the property that will undergo ipb, which is of type goal. This means when we have the property goal in goaldetailcomponent
 it will have received its data from its parent goal component.
 -to bind this goal property, we change the goalcomponent.html
+
+Output Property Binding
+-passes data out of a component.
 */
