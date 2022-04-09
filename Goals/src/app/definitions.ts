@@ -1,4 +1,10 @@
 /*
+Generate Component
+cd Goals
+ng generate component goal
+ng generate component goal-detail
+
+
 -Our goal blueprint is goal.ts
 
 -We moved the logic from the app component to the goal component
@@ -20,4 +26,7 @@ Nesting components
 Child components
 -we want to give our goals additional description, we will create a goaldetail coponent that is a child of the goal component.
 -the goaldetail component will be responsible for displaying the details of each goal.
+
+Input Property Binding
+-allows us to pass data from a parent component to its child components.
 */
