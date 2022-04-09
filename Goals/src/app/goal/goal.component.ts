@@ -10,12 +10,12 @@ export class GoalComponent implements OnInit {
 
 
   goals: Goal[] = [
-    {id:1, name:'Watch finding Nemo', description:'Find an online version and watch merlin find his son'},
-    {id:2, name:'Buy cookies', description:'I have to buy cookies for the parrot'},
-    {id:3, name:'Get new phone case', description:'Diana has her birthday coming up soon'},
-    {id:4, name:'Get dog food', description:'Pupper likes expensive snacks'},
-    {id:5, name:'Solve math homework', description:'Use solving math'},
-    {id:6, name:'Plot my world domination plan', description:'Cause I am an evil overlord'},
+      new Goal(1, 'Watch finding nemo', 'Find an online version and watch merlin find his son'),
+      new Goal(2, 'Buy Cookies', 'I have to buy cookies for the parrot'),
+      new Goal(3, 'Get new phone case', 'Diana has her birthday coming up soon'),
+      new Goal(4, 'Get dog food', 'Pupper likes expensive snacks'),
+      new Goal(5, 'Solve math homework', 'Use solving math'),
+      new Goal(6, 'Plot my world domination plan', 'Cause I am an evil overlord'),
   ];
 
   constructor() { }
