@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core'; //allows us to do Ipb
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core'; //allows us to do Ipb
 import { Goal } from '../goal'; //import the goal blueprint class
 
 @Component({
@@ -8,6 +8,12 @@ import { Goal } from '../goal'; //import the goal blueprint class
 })
 export class GoalDetailComponent implements OnInit {
   @Input () goal:Goal;
+  @Output () isComplete = new EventEmitter<boolean>();
+
+  goalComplete(complete:boolean){
+    this.isComplete.emit(complete);
+  }
+
   constructor() { }
 
   ngOnInit(): void {

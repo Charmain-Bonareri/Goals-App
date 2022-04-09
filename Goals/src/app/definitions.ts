@@ -36,4 +36,7 @@ it will have received its data from its parent goal component.
 
 Output Property Binding
 -passes data out of a component.
+
+Emitting Events
+-when we want a child component to communicate with a parent, we make the child component emit an event that is taken up by the parent.
 */
