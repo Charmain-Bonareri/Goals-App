@@ -1,0 +1,21 @@
+button{
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #8623D4;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border-style: hidden;
+
+}
+.bg-image {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./background.png");
+  background-position: center center;
+}
+

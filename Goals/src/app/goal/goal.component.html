@@ -1,11 +1,17 @@
+<div class="bg-image">
+
+</div>
 <div>
   <h1>My Goals</h1>
   <hr>
+
   <ul>
-    <li *ngFor="let goal of goals">
-      {{goal.name}}
-      <app-goal-detail [goal]="goal"></app-goal-detail>
-    </li>
+    <div *ngFor="let goal of goals;let i = index">
+      <li>{{goal.name}}</li>
+      <button (click) = 'toogleDetails(i)'>See description</button>
+      <app-goal-detail *ngIf="goal.showDescription"[goal]="goal"></app-goal-detail>
+    </div>
   </ul>
   <p *ngIf="goals.length>5">Your goals are too many!</p>
+
 </div>

@@ -5,4 +5,11 @@ body{
   background-color: black;
   color: antiquewhite;
   font-family: 'Montserrat', sans-serif;
+  /* background-image: url("../src/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+  /* height: 500px;
+    width: 95%;
+    margin: auto; */
 }
