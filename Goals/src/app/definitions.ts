@@ -39,4 +39,6 @@ Output Property Binding
 
 Emitting Events
 -when we want a child component to communicate with a parent, we make the child component emit an event that is taken up by the parent.
+-added a complete button below the goal description and defined some logic inside it.
+-we added a click event binding syntax which will call the goalComplete(true) function once the button is clicked.
 */
