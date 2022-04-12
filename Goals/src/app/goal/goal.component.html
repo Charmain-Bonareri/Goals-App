@@ -1,9 +1,10 @@
 <div class="bg-image">
 </div>
 <hr>
-
+<h1>My Goals</h1>
 <div class="row">
   <div class="col-md-6">
+    <app-goal-form (addGoal)="addNewGoal($event)"></app-goal-form>
     <div *ngFor='let goal of goals;let i = index'>
       <div>
         <h6 id={{i}} appStrikethrough>{{goal.name}} due on {{goal.completeDate|date|uppercase}}</h6>
