@@ -6,9 +6,9 @@
   <hr>
   <ul>
     <div *ngFor="let goal of goals;let i = index">
-      <li appStrikethrough>{{goal.name}} due on {{goal.completeDate|date}}</li> 
+      <li appStrikethrough>{{goal.name}} due on {{goal.completeDate|date}}</li>
       <button (click) = 'toogleDetails(i)'>See description</button>
-      <app-goal-detail *ngIf="goal.showDescription"[goal]="goal" (isComplete)="completeGoal($event,i)"></app-goal-detail>
+      <app-goal-detail *ngIf='goal.showDescription' [goal]='goal' (isComplete) = 'deleteGoal($event,i)'></app-goal-detail>
     </div>
   </ul>
   <p *ngIf="goals.length>5">Your goals are too many!</p>
