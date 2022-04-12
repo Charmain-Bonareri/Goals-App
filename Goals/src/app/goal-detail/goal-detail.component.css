@@ -1,0 +1,13 @@
+button{
+  padding: 5px;
+  border-radius: 20px;
+  background-color: cyan;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border-style: hidden;
+
+}

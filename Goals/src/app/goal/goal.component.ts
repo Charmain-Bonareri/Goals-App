@@ -22,7 +22,13 @@ export class GoalComponent implements OnInit {
   toogleDetails(index){
     this.goals[index].showDescription = !this.goals[index].showDescription;
   }
-  
+
+  completeGoal(isComplete, index){
+    if(isComplete){
+      this.goals.splice(index,1);
+    }
+  }
+
   constructor() { }
 
   ngOnInit(): void { //ngOnInit is a lifecycle hook, called each time the component is created.
