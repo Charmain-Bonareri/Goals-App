@@ -13,7 +13,7 @@ We have exported the class to make it available for use anywhere else we need it
 export class Goal {
   showDescription: boolean;
 
-      constructor(public id: number, public name: string, public description: string){
+      constructor(public id: number, public name: string, public description: string, public completeDate: Date){
         this.showDescription=false;
       }
 }
