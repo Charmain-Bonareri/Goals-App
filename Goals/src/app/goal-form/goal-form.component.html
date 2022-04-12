@@ -1,7 +1,8 @@
 <div class="container-fluid">
-  <h2 class="text-center">Create a new Goal</h2>
+  <h2>Create a new Goal</h2>
+
   <hr>
-  <form (ngSubmit)='submitGoal()' #goalForm='ngForm'>
+  <form (ngSubmit)='submitGoal()' #goalForm='ngForm' class="myForm">
       <div class="form-group">
 
           <label for="name">Name</label>
@@ -26,6 +27,6 @@
             <p>Date is required</p>
           </div>
       </div>
-      <button type="submit" class="btn btn-success">Add Goal</button>
+      <button class="animate__animated animate__rubberBand animate__repeat-3" id="btn" type="submit" >Add Goal</button>
   </form>
 </div>

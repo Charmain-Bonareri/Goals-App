@@ -18,4 +18,10 @@ button{
   background-image: url("./background.png");
   background-position: center center;
 }
-
+.row{
+  margin-left: 4%;
+}
+#head1{
+  margin-left: 5%;
+  
+}
